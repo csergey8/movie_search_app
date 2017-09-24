@@ -1,2 +1,4 @@
 # movie_search_app
-Simple aplication for trying use API
+Simple film search aplication using themoviedbAPI
+
+Use : node, npm, express
