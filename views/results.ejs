@@ -1,7 +1,9 @@
+<a href='/'>back</a>
 <h1>Results Page</h1>
 <% data.results.forEach(function(film){ %>
     <li>
-        <%= film.title %>
+        <%= film.title %> - vote average
+            <%= film.vote_average %>
     </li>
     <p>
         <%= film.overview %>
