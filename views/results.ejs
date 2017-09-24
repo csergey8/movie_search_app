@@ -1,0 +1,9 @@
+<h1>Results Page</h1>
+<% data.results.forEach(function(film){ %>
+    <li>
+        <%= film.title %>
+    </li>
+    <p>
+        <%= film.overview %>
+    </p>
+    <% }); %>
